@@ -1,0 +1,24 @@
+#Ccargar{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+    height: 100vh;
+}
+
+#xmlCaja{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+
+}
+#areaT{
+    resize: none;
+    width: 800px;
+    height: 250px;
+}
+#xmlCaja input[type="file"]{
+    color:white
+}

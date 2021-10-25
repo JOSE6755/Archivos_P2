@@ -1,0 +1,17 @@
+#contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-family: sans-serif;
+    background: #34495e;
+    height: 100vh;
+    
+}
+
+#carta{
+    width: 800px;
+    height: 500px;
+    
+}
