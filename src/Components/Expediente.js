@@ -21,7 +21,7 @@ export default function Expediente(){
         
         try {
             const res =axios.post(
-              "http://localhost:3100/archivos",
+              "http://localhost:3100/expediente",
               data
             );
             console.log(res);

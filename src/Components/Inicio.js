@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 import "../Styles/Inicio.css"
 
-var items = [];
+
 
 const Example = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);

@@ -12,7 +12,7 @@ export default function CargaXML() {
     const [archivo, setArchivo] = useState(null)
     const [texto, setTexto]=useState("")
     var temporal=[]
-    const {user}=useAuth()
+    //const {user}=useAuth()
     //var json = {}
 
     const subir = e => {

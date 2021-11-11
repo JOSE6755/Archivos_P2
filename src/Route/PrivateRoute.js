@@ -2,7 +2,7 @@ import React from "react";
 import { Redirect, Route } from "react-router";
 import useAuth from "../Auth/UseAuth";
 export default function PrivateRoute({hasRole:role, ...rest}) {
-   
+   console.log(role)
     const {hasRole,isLogged}=useAuth()
     const {user}=useAuth()
     
@@ -10,7 +10,7 @@ export default function PrivateRoute({hasRole:role, ...rest}) {
 
 
     if(role && !hasRole(role)) {
-        console.log(localStorage.getItem("Sesion"))
+        console.log(role)
         return <Redirect to="/"/>
     }
 
